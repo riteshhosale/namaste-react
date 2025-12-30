@@ -1,0 +1,28 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namste react by Ritesh Bhosale",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riteshhosale/namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "namste",
+    "react",
+    "ritesh"
+  ],
+  "author": "Ritesh Bhosale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riteshhosale/namaste-react/issues"
+  },
+  "homepage": "https://github.com/riteshhosale/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
