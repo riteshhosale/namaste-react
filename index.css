@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+/* Layout: main body - search sidebar + restaurant grid */
+.body {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.nav-items>ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items>ul>li {
+    list-style-type: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* .Resturant-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resturant-card {
+    border: 1px solid black;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.h34 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+} */
+
+.res-logo {
+    width: 100%;
+}
+
+/* .Search {
+    margin: 20px;
+    text-align: left;
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+} */ 
+
+/* Aliases and corrected spellings to be robust with different markup */
+.restaurant-container, .Resturant-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    flex: 1 1 0;
+}
+
+.restaurant-card, .resturant-card {
+    border: 1px solid black;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.search, .Search {
+    margin: 20px;
+    text-align: left;
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+}
+
+.h34, h3, h4 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
